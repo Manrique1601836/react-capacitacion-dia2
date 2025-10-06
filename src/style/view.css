@@ -16,12 +16,12 @@
 
 .dashboard {
     grid-area: navbar;
-    background-color: red;
+    background-color: rgb(30, 36, 36);
     border-radius: 25px;
 }
 .title{
     grid-area: title;
-    background-color: red;
+    background-color: rgb(30, 36, 36);
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
 }
 .footer{
     grid-area: footer;
-    background-color: red;
+    background-color: rgb(30, 36, 36);
     border-radius: 25px;
     display: flex;
     justify-content: center;

@@ -1,6 +1,6 @@
 
 export default function Footer(){
     return(
-        <p>Derechos de autor</p>
+        <h2>Derechos de autor</h2>
     )
 }
