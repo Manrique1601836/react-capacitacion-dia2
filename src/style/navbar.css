@@ -1,0 +1,66 @@
+/* ===== Contenedor ===== */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        /* azul oscuro elegante */
+    color: white;
+    padding: 2rem 1rem;
+    height: 100%;                 /* ocupa todo el alto del grid */
+}
+
+/* ===== Logo ===== */
+.logo {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo .a {
+    text-decoration: none;
+    color: #38bdf8;               /* celeste */
+}
+
+/* ===== Navegación ===== */
+.navbar nav {
+    width: 100%;
+}
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ===== Items ===== */
+.navbar nav ul li {
+    width: 100%;
+}
+
+/* ===== Links ===== */
+.link {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e2e8f0;               /* gris claro */
+    transition: all 0.3s ease;
+}
+.link:hover {
+    background: #334155;          /* azul más claro */
+    color: #38bdf8;               /* celeste */
+    transform: translateX(5px);   /* pequeño efecto de movimiento */
+}
+.img-react{
+    margin-top: 10rem;
+}
+.imagen-react{
+    width: 20rem;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

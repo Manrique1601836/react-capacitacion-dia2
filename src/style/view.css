@@ -1,0 +1,46 @@
+
+.page{
+    width: 1880px;
+    height: 96vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: .5fr 3fr .5fr;
+    grid-template-areas:    
+        "navbar title "
+        "navbar outlet "
+        "footer footer ";
+
+    gap: .8rem;
+    padding: 1rem;
+}
+
+.dashboard {
+    grid-area: navbar;
+    background-color: red;
+    border-radius: 25px;
+}
+.title{
+    grid-area: title;
+    background-color: red;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outlet{
+    grid-area: outlet;
+    background-color: red;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer{
+    grid-area: footer;
+    background-color: red;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
